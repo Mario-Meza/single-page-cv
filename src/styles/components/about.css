@@ -1,0 +1,49 @@
+:root{
+    --color-text-section: green;
+    --font-size-text-section: 18px;
+    --font-size-text-title-section: 25px;
+    --font-color-text-blue: rgb(0, 122, 188);
+    --font-weight-bold: bold;
+}
+.name{
+    font-size: 35px
+}
+/*LINE BLACK*/
+.line { 
+    border-bottom: 5px solid black;
+    margin-top: 20px;
+    width: 90%;
+}
+/*SECTIONS*/
+.role,
+.skills,
+.education,
+.experience{
+    color: var(--color-text-section);
+    font-size: var(--font-size-text-title-section);
+}
+.skill{
+    font-weight: bolder;
+}
+.list-skill {
+    padding-left: 30px;
+    list-style: disc;
+}
+
+.education-school-name,
+.experience-role{
+    font-size: 17px;
+    font-weight: var(--font-weight-bold);
+    color: var(--font-color-text-blue);
+}
+.education-list-services{
+    padding-left: 30px;
+    list-style: disc;
+}
+.things{
+    font-weight: var(--font-weight-bold);
+}
+.text-experience{
+    text-align: start;
+}
+

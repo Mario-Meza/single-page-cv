@@ -1,0 +1,24 @@
+/*import tailwind*/
+@import "tailwindcss";
+/* Importa otros archivos CSS */
+@import './components/about.css';
+@import './components/about.css';
+@import './components/projects.css';
+
+
+:root {
+  --primary-color: #3b82f6;    /* blue-500 */
+  --secondary-color: #1e40af;  /* blue-800 */
+  --text-primary: #1f2937;     /* gray-800 */
+  --text-secondary: #4b5563;   /* gray-600 */
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+  margin: 0 auto 10px;
+  padding: 0 1rem;
+  max-width: 1024px;
+
+}
+
+
